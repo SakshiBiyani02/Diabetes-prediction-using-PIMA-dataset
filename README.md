@@ -2,6 +2,7 @@
 ### Research Intern under Centre of Advanced Data Science at VIT Chennai 
 # Introduction
 Diabetes Mellitus, a chronic condition characterized by elevated blood sugar levels, poses significant public health challenges worldwide. To address this need, we developed a robust and accurate predictive model for diabetes using random forest classifier and advanced machine learning techniques. Our findings indicate that the use of  smote combined with advanced preprocessing and handling techniques, significantly enhances the robustness and accuracy of diabetes prediction models. The developed model demonstrates high predictive performance with a mean  accuracy of 97.9 % validated through rigorous evaluation metrics. This approach contributes to better disease management and improved patient outcomes, showcasing the potential of machine learning algorithms in addressing complex healthcare challenges.
+
 ![Img1](https://github.com/SakshiBiyani02/Diabetes-prediction-using-PIMA-dataset/blob/main/Screenshot%202025-07-11%20224725.png?raw=true)
 
 Figure[1] illustrates that the disease manifests primarily in three forms: Type 1 diabetes, an autoimmune disorder where the body produces little to no insulin; Type 2 diabetes, characterized by insulin resistance and accounting for the majority of diabetes cases worldwide; and Gestational Diabetes Mellitus (GDM), which develops during pregnancy and increases the future risk of Type 2 diabetes for both the mother and child. Type 2 diabetes is most often associated with lifestyle factors like obesity, physical inactivity, and genetic predisposition, making it the most prevalent and challenging form of the disease.
@@ -13,8 +14,11 @@ Figure [2] shows the distribution of common complications associated with diabet
 # Methodology
 The study focuses on feature engineering, exploratory data analysis, data preparation, and using a Random Forest classifier to increase prediction accuracy. To correct the class imbalance in the dataset, Synthetic Minority Over-sampling Technique (SMOTE) is also applied. This part will provide a thorough description of the techniques utilized to accomplish the research objectives by going into depth about the procedures involved in data preparation, visualization, model training, and evaluation. 
 - Type of Research
+
 This study employs a quantitative research approach, focusing on the statistical analysis and machine learning techniques to predict diabetes outcomes based on a set of health metrics.
+
 - Research Strategy
+
 The research strategy involves an experimental design where various data preprocessing steps are applied, and the performance of different models is evaluated.
 
 The primary steps include:
@@ -24,6 +28,7 @@ The primary steps include:
 - Model Training: Applying the Random Forest classifier to the prepared dataset and tuning the model parameters using cross-validation.
 - Addressing Class Imbalance: Implementing SMOTE to balance the dataset by generating synthetic samples for the minority class.
 - Model Evaluation: Evaluating the model’s performance using cross-validation scores and analyzing the results to determine the effectiveness of the approach.
+
 This experimental strategy ensures a systematic and comprehensive examination of the factors influencing diabetes prediction and the efficacy of the chosen methodologies.
 
 ## Data Sources
@@ -33,7 +38,9 @@ The dataset used in this study was sourced from Kaggle, specifically the Pima In
 Since the dataset was pre-collected and made available as a complete dataset, no additional sampling was conducted for this research. The dataset comprises 768 observations, each representing an individual patient, with 8 feature variables and 1 target variable. 
 
 # Results 
-After implementing everything the model was evaluated. The performance metric used to analyze this model is accuracy. The model was executed several times and the mean of those accuracies was obtained. The mean accuracy is 97.7969348659003.
+After implementing everything the model was evaluated. The performance metric used to analyze this model is accuracy. The model was executed several times and the mean of those accuracies was obtained. 
+
+The mean accuracy is 97.7969348659003.
 
 ![Acc](https://github.com/SakshiBiyani02/Diabetes-prediction-using-PIMA-dataset/blob/main/Highest_accuracy%20using%20random%20forest%20.png?raw=true)
 
