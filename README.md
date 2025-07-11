@@ -22,6 +22,7 @@ Since the dataset was pre-collected and made available as a complete dataset, no
 
 # Results 
 After implementing everything the model was evaluated. The performance metric used to analyze this model is accuracy. The model was executed several times and the mean of those accuracies was obtained. The mean accuracy is 97.7969348659003.
+![Acc](https://github.com/SakshiBiyani02/Diabetes-prediction-using-PIMA-dataset/blob/main/Highest_accuracy%20using%20random%20forest%20.png?raw=true)
 # Conclusion
 In this paper, we have performed random forest classification over PIMA Indian Diabetes Dataset and used SMOTE (Synthetic Minority Over-sampling Technique) to rectify the imbalance in the dataset. Our model has achieved an accuracy of 97.79% which is one of the highest accuracies achieved for diabetes classification over PIMA dataset. 
 
