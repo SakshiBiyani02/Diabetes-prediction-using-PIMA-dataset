@@ -1,5 +1,5 @@
-# Diabeters-prediction-using-PIMA-dataset
-## Research Intern under Centre of Advanced Data Science at VIT Chennai 
+# Diabetes-prediction-using-PIMA-dataset
+### Research Intern under Centre of Advanced Data Science at VIT Chennai 
 # Introduction
 Diabetes Mellitus, a chronic condition characterized by elevated blood sugar levels, poses significant public health challenges worldwide. To address this need, we developed a robust and accurate predictive model for diabetes using random forest classifier and advanced machine learning techniques. Our findings indicate that the use of  smote combined with advanced preprocessing and handling techniques, significantly enhances the robustness and accuracy of diabetes prediction models. The developed model demonstrates high predictive performance with a mean  accuracy of 97.9 % validated through rigorous evaluation metrics. This approach contributes to better disease management and improved patient outcomes, showcasing the potential of machine learning algorithms in addressing complex healthcare challenges.
 ![Img1](https://github.com/SakshiBiyani02/Diabetes-prediction-using-PIMA-dataset/blob/main/Screenshot%202025-07-11%20224725.png?raw=true)
